@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="HeadLess" value="no"/>
+  <listeners>
+    <listener class-name="Utilities.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="verifyCreateDashboardTest" invocation-numbers="0"/>
+          <include name="InitializingExtenReports"/>
+          <include name="verifySearchContactsTest" invocation-numbers="0"/>
+          <include name="CreateReport"/>
+          <include name="GetReportResult"/>
+          <include name="verifyCreateCompanyTest" invocation-numbers="0"/>
+          <include name="FlushingExtentReports"/>
+          <include name="verifyImportsTest" invocation-numbers="0"/>
+          <include name="TearDownApplication"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="3" ignored="0" total="17" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="242938" started-at="2019-06-20T05:58:53Z" finished-at="2019-06-20T06:02:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="242938" started-at="2019-06-20T05:58:53Z" finished-at="2019-06-20T06:02:56Z">
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="InitializingExtenReports()[pri:0, instance:Tests.LoginTest@10c8f62]" name="InitializingExtenReports" is-config="true" duration-ms="329" started-at="2019-06-20T05:58:52Z" finished-at="2019-06-20T05:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializingExtenReports -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@10c8f62]" name="OpenBrowser" is-config="true" duration-ms="5162" started-at="2019-06-20T05:58:53Z" finished-at="2019-06-20T05:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="8" started-at="2019-06-20T05:58:58Z" finished-at="2019-06-20T05:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyLoginPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="verifyLoginPageTitleTest" duration-ms="35114" started-at="2019-06-20T05:58:58Z" description="verifying login page title test" finished-at="2019-06-20T05:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyLoginPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="3" started-at="2019-06-20T05:59:33Z" finished-at="2019-06-20T05:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageTitleTest status=SUCCESS method=LoginTest.verifyLoginPageTitleTest(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T05:59:33Z" finished-at="2019-06-20T05:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyHomePageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest(java.lang.reflect.Method)[pri:1, instance:Tests.LoginTest@10c8f62]" name="verifyHomePageTitleTest" duration-ms="30049" started-at="2019-06-20T05:59:33Z" description="verifying home page title test" finished-at="2019-06-20T06:00:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyHomePageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="1" started-at="2019-06-20T06:00:03Z" finished-at="2019-06-20T06:00:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=LoginTest.verifyHomePageTitleTest(java.lang.reflect.Method)[pri:1, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:00:03Z" finished-at="2019-06-20T06:00:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyContactPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="PASS" signature="verifyContactPageTitleTest(java.lang.reflect.Method)[pri:2, instance:Tests.LoginTest@10c8f62]" name="verifyContactPageTitleTest" duration-ms="141011" started-at="2019-06-20T06:00:03Z" description="verifying contact page title test" finished-at="2019-06-20T06:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyContactPageTitleTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPageTitleTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="3" started-at="2019-06-20T06:02:24Z" finished-at="2019-06-20T06:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactPageTitleTest status=SUCCESS method=LoginTest.verifyContactPageTitleTest(java.lang.reflect.Method)[pri:2, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:24Z" finished-at="2019-06-20T06:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyUserNameTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="PASS" signature="verifyUserNameTest(java.lang.reflect.Method)[pri:3, instance:Tests.LoginTest@10c8f62]" name="verifyUserNameTest" duration-ms="30478" started-at="2019-06-20T06:02:24Z" description="verifying username" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyUserNameTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserNameTest status=SUCCESS method=LoginTest.verifyUserNameTest(java.lang.reflect.Method)[pri:3, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifySearchContactsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62]" name="verifySearchContactsTest" duration-ms="10" started-at="2019-06-20T06:02:55Z" description="verifying search contacts test" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifySearchContactsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Assert failed due to mismatch of Hello and hello] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Assert failed due to mismatch of Hello and hello] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Tests.LoginTest.verifySearchContactsTest(LoginTest.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchContactsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="4" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchContactsTest status=SKIP method=LoginTest.verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifySearchContactsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62]" name="verifySearchContactsTest" duration-ms="2" started-at="2019-06-20T06:02:55Z" description="verifying search contacts test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchContactsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="2" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchContactsTest status=SKIP method=LoginTest.verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifySearchContactsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62]" name="verifySearchContactsTest" duration-ms="3" started-at="2019-06-20T06:02:55Z" description="verifying search contacts test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchContactsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchContactsTest status=SKIP method=LoginTest.verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifySearchContactsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="FAIL" signature="verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62]" name="verifySearchContactsTest" duration-ms="4" started-at="2019-06-20T06:02:55Z" description="verifying search contacts test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchContactsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="21" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchContactsTest status=FAILURE method=LoginTest.verifySearchContactsTest(java.lang.reflect.Method)[pri:4, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyImportsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62]" name="verifyImportsTest" duration-ms="4" started-at="2019-06-20T06:02:55Z" description="verifying imports function test" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyImportsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Assert failed due to mismatch of Dheeraj and dheeraj] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Assert failed due to mismatch of Dheeraj and dheeraj] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Tests.LoginTest.verifyImportsTest(LoginTest.java:172)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="2" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImportsTest status=SKIP method=LoginTest.verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyImportsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62]" name="verifyImportsTest" duration-ms="3" started-at="2019-06-20T06:02:55Z" description="verifying imports function test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImportsTest status=SKIP method=LoginTest.verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyImportsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62]" name="verifyImportsTest" duration-ms="3" started-at="2019-06-20T06:02:55Z" description="verifying imports function test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="2" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImportsTest status=SKIP method=LoginTest.verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyImportsTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="FAIL" signature="verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62]" name="verifyImportsTest" duration-ms="4" started-at="2019-06-20T06:02:55Z" description="verifying imports function test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportsTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="61" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImportsTest status=FAILURE method=LoginTest.verifyImportsTest(java.lang.reflect.Method)[pri:5, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62]" name="verifyCreateCompanyTest" duration-ms="3" started-at="2019-06-20T06:02:55Z" description="verifying create company function test" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Assert failed due to mismatch of Motor and Motors] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Assert failed due to mismatch of Motor and Motors] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Tests.LoginTest.verifyCreateCompanyTest(LoginTest.java:194)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCompanyTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateCompanyTest status=SKIP method=LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62]" name="verifyCreateCompanyTest" duration-ms="3" started-at="2019-06-20T06:02:55Z" description="verifying create company function test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCompanyTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="2" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateCompanyTest status=SKIP method=LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62]" name="verifyCreateCompanyTest" duration-ms="2" started-at="2019-06-20T06:02:55Z" description="verifying create company function test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCompanyTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="0" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateCompanyTest status=SKIP method=LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="FAIL" signature="verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62]" name="verifyCreateCompanyTest" duration-ms="2" started-at="2019-06-20T06:02:55Z" description="verifying create company function test" finished-at="2019-06-20T06:02:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCompanyTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="90" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateCompanyTest status=FAILURE method=LoginTest.verifyCreateCompanyTest(java.lang.reflect.Method)[pri:6, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:Tests.LoginTest@10c8f62]" name="CreateReport" is-config="true" duration-ms="1" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateDashboardTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="SKIP" signature="verifyCreateDashboardTest(java.lang.reflect.Method)[pri:7, instance:Tests.LoginTest@10c8f62]" name="verifyCreateDashboardTest" duration-ms="15" started-at="2019-06-20T06:02:55Z" description="verifying create dashboard function test" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.LoginTest.verifyCreateDashboardTest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Not ready to test verifyCreateDashboardTest function under this build version 3.4.5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Not ready to test verifyCreateDashboardTest function under this build version 3.4.5
+at Tests.LoginTest.verifyCreateDashboardTest(LoginTest.java:220)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateDashboardTest -->
+        <test-method status="PASS" signature="GetReportResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10c8f62]" name="GetReportResult" is-config="true" duration-ms="3" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateDashboardTest status=SKIP method=LoginTest.verifyCreateDashboardTest(java.lang.reflect.Method)[pri:7, instance:Tests.LoginTest@10c8f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetReportResult -->
+        <test-method status="PASS" signature="TearDownApplication()[pri:0, instance:Tests.LoginTest@10c8f62]" name="TearDownApplication" is-config="true" duration-ms="551" started-at="2019-06-20T06:02:55Z" finished-at="2019-06-20T06:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownApplication -->
+        <test-method status="PASS" signature="FlushingExtentReports()[pri:0, instance:Tests.LoginTest@10c8f62]" name="FlushingExtentReports" is-config="true" duration-ms="448" started-at="2019-06-20T06:02:56Z" finished-at="2019-06-20T06:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlushingExtentReports -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
