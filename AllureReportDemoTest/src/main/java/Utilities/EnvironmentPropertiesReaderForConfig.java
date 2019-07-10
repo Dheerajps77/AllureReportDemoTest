@@ -17,7 +17,8 @@ public class EnvironmentPropertiesReaderForConfig {
 		properties = PropertiesFile();		
 	}
 	public Properties PropertiesFile() {
-		File file = new File(System.getProperty("user.dir")+"/src/main/java/Config/Config.properties");
+		String string=System.getProperty("user.dir");
+		File file = new File(string+"\\src\\main\\java\\Config\\Config.properties");
 		FileInputStream fileInput = null;
 		Properties props = new Properties();
 		try {
