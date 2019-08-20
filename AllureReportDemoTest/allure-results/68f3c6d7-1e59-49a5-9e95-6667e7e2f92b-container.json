@@ -1,0 +1,1 @@
+{"uuid":"68f3c6d7-1e59-49a5-9e95-6667e7e2f92b","name":"Command line suite","children":["fa35b01e-4dbd-4e62-89f8-f6a9f45c2d65"],"befores":[{"name":"InitializingExtenReports","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1562243715179,"stop":1562243715265}],"afters":[],"links":[],"start":1562243715163,"stop":1562243715483}
